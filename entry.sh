@@ -34,7 +34,6 @@ fi
 squid -N -z -f /etc/squid/squid.conf
 echo cache OK
 sleep 1
-squid -X -N -f /etc/squid/squid.conf
-
+squid -N -f /etc/squid/squid.conf
 # cat /etc/squid/squid.conf
 # find / | grep ncsa_auth
